@@ -1,0 +1,48 @@
+{
+  "results" : [ {
+    "guest_info" : {
+      "os_name" : "Microsoft Windows Server 2012 (64-bit)",
+      "computer_name" : "SRV1.test.local"
+    },
+    "display_name" : "SRV1.test.local"
+  }, {
+    "guest_info" : {
+      "os_name" : "Microsoft Windows Server 2012 (64-bit)",
+      "computer_name" : "SRV2.test.local"
+    },
+    "display_name" : "SRV2.test.local",
+    "tags" : [ {
+      "scope" : "",
+      "tag" : "TEST"
+    }, {
+      "scope" : "",
+      "tag" : "WINDOWS"
+    }, {
+      "scope" : "",
+      "tag" : "SERVER"
+    } ]
+  }, {
+    "guest_info" : {
+      "os_name" : "CentOS 4/5 or later (64-bit)",
+      "computer_name" : "SRV3.test.local"
+    },
+    "display_name" : "SRV3.test.local"
+  }, {
+    "guest_info" : {
+      "os_name" : "Red Hat Enterprise Linux 6 (64-bit)",
+      "computer_name" : "SRV4.test.local"
+    },
+    "display_name" : "SRV4.test.local",
+    "tags" : [ {
+      "scope" : "",
+      "tag" : "DEV"
+    }, {
+      "scope" : "",
+      "tag" : "LINUX"
+    }, {
+      "scope" : "",
+      "tag" : "SERVER"
+    } ]
+  }],
+  "result_count" : 4
+}
