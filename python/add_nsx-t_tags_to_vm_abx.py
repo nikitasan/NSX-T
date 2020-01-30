@@ -59,7 +59,7 @@ def parse_tags(bp_json):
     for key, value in bp_json["tags"].items():
         if key.startswith("nsx-"):
             print(key, value)
-            tag_item = {"scope": key, "tag": value}
+            tag_item = {"scope": key.replace("nsx-", ""), "tag": value}
             tag_json.append(tag_item)
     return tag_json
 
